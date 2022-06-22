@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    --headerButtonBC :#13183F;
+    --headerButtonHover: #666CA3;
+    --buttonWidth: 117px;
+    --buttonHeight: 45px;
+    --pColor:#83869A;
+    --hColor: #13183F;
+    --footerButtonBC: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    --footerButtonHover:linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+
+}
+
