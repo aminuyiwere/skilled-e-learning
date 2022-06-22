@@ -305,4 +305,136 @@ background: var(--footerButtonHover);
         margin: 30px 0px auto 0px;
     }
     
+
+}
+
+@media (min-width:1000px) {
+    #tablet-image{
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        visibility: hidden;
+    }
+    #mobile-image{
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        visibility: hidden;
+
+    }
+    #desktop-image{
+        visibility: visible;
+        height: auto;
+        width: 700px;
+    }
+    
+    
+    #header{
+        position: relative;
+        z-index: 1;
+    }
+    
+    #header img{
+        position: absolute;
+       left: 15%;
+       top: 50px;
+    }
+    #header p{
+        right: 10%;
+        top: 50px;  
+    }
+    
+    /* info */
+    #info{
+        min-width: 600px;
+        min-height: 700px;
+        position: relative;
+        top: 150px;
+    }
+    #skill{
+    position: relative;
+    top: 40px;
+    left: 15%;
+    width: 350px;
+    }
+    #skill h1{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 71px;
+    }
+    #skill p{
+        margin-top: 20px ;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        
+    }
+    
+    #info img{
+        position: absolute;
+        width: 650px;
+        right: -15vw;
+        top: -30vh;
+    }
+    
+    /* courses */
+    
+    #courses{
+        position: relative;
+        width: 950px;
+        height: 650px;
+        left: 15%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: -10px;
+        
+        
+    }
+    
+    .box{
+        width: 270px;
+        height: 280px;
+    }
+    #box-1{
+        width: 270px;
+        height: 280px;
+    
+    }
+  
+    /* footer */
+    footer{
+        position: relative;
+        width: 100%;
+        height: 80px;
+        left: 0px;
+        background: #13183F;
+    }
+    footer img{
+        position: absolute;
+       left: 15%;
+       top: 30px;
+    }
+    footer p{
+        background: var(--footerButtonBC);
+        border-radius: 28px;
+        text-align: center;
+        position: absolute;
+        right: 15%;
+        top: 20px;
+        width: var(--buttonWidth);
+        height: var(--buttonHeight);
+       
+        
+    }
+    footer p a{
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        top: 30%;
+    }
+    footer p:hover{
+    background: var(--footerButtonHover);
+    }
+    
+}
 }
