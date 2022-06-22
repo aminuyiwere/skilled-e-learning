@@ -222,3 +222,87 @@ footer p:hover{
 background: var(--footerButtonHover);
 }
 
+@media (min-width: 720px) {
+    #desktop-image{
+        visibility: hidden;
+        width:0px;
+        height: 0px;
+    }
+    #mobile-image{
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+    #info{
+        position: relative;
+        top: 150px;
+    }
+    #tablet-image{
+        visibility:visible;
+        width:800px;
+        height: 500px;
+    }
+ 
+    #skill{
+    position: relative;
+    left: 5%;
+    width: 300px;
+    }
+    #skill h1{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 71px;
+    color: var(--hColor);
+    }
+    #skill p{
+        margin-top: 20px ;
+        color:var(--pColor);
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 28px;
+        
+    }
+    #skill h4{
+        width: var(--buttonWidth) ;
+        height: var(--buttonHeight);
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        border-radius: 31.5px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    #skill h4 a{
+        position: relative;
+        text-decoration: none;
+        color: #fff;
+        top: 30%;
+    }
+    #skill h4:hover{
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    }
+    
+    #info img{
+        position: relative;
+        width: 500px;
+        right: -55vw;
+        top: -75vh;
+    }
+
+    #courses{
+        background-color:linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+        position: relative;
+        left: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: -200px; 
+        margin-bottom: 100px;       
+    }
+    .box{
+        height: 250px;
+        margin: 30px 0px auto 0px;
+    }
+    #box-1{
+        height: 250px;
+        margin: 30px 0px auto 0px;
+    }
+    
+}
