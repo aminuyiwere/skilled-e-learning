@@ -13,4 +13,212 @@
     --footerButtonHover:linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
 
 }
+body,html{
+  overflow-x:hidden ;
+}
+body{
+    position: relative;
+}
+#desktop-image{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    visibility: hidden;
+}
+#tablet-image{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    visibility: hidden;
+}
+#header img{
+    position: absolute;
+   left: 5%;
+   top: 50px;
+}
+#header p{
+    background-color: var(--headerButtonBC);
+    border-radius: 28px;
+    text-align: center;
+    position: absolute;
+    right: 5%;
+    top: 50px;
+    width: var(--buttonWidth);
+    height: var(--buttonHeight);
+   
+    
+}
+#header p a{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    top: 30%;
+}
+#header p:hover{
+background-color: var(--headerButtonHover);
+}
+/* info */
+#info{
+    position: relative;
+    top: 100px;
+}
+#skill{
+position: relative;
+top: 40px;
+left: 5%;
+width: 350px;
+}
+#skill h1{
+font-weight: 800;
+font-size: 48px;
+line-height: 71px;
+color: var(--hColor);
+}
+#skill p{
+    margin-top: 20px ;
+    color:var(--pColor);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    
+}
+#skill h4{
+    width: var(--buttonWidth) ;
+    height: var(--buttonHeight);
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+    margin-top: 30px;
+    text-align: center;
+}
+#skill h4 a{
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    top: 30%;
+}
+#skill h4:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+#info img{
+    position: relative;
+    width: 400px;
+    
+    
+
+
+}
+
+/* courses */
+
+#courses{
+    background-color:linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    position: relative;
+    left: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 100px;
+    
+    
+}
+
+.box{
+    width: 300px;
+    height: 280px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px;
+    margin: 20px;
+}
+#box-1{
+    width: 300px;
+    height: 280px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px;
+    margin: 20px;
+
+}
+#box-1 p{
+    position: relative;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 50px;
+    top: 20px;
+
+}
+.box h1{
+    color: var(--hColor);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 20px;
+}
+
+.box p{
+    color:var(--pColor);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.box a{
+position: relative;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+color: #F74780;
+text-decoration: none;
+top: 30px;
+
+}
+.box a:hover{
+    color: #FFA7C3
+}
+
+.box img{
+    position: relative;
+    top: -20px;
+    padding-left: 20px;
+}
+
+/* footer */
+footer{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    background: #13183F;
+}
+footer img{
+    position: absolute;
+   left: 5%;
+   top: 30px;
+}
+footer p{
+    background: var(--footerButtonBC);
+    border-radius: 28px;
+    text-align: center;
+    position: absolute;
+    right: 5%;
+    top: 20px;
+    width: var(--buttonWidth);
+    height: var(--buttonHeight);
+   
+    
+}
+footer p a{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    top: 30%;
+}
+footer p:hover{
+background: var(--footerButtonHover);
+}
 
