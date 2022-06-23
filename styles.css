@@ -118,6 +118,7 @@ color: var(--hColor);
     display: grid;
     grid-template-columns: 1fr;
     margin-top: 100px;
+    margin-bottom: 100px;
     
     
 }
@@ -194,6 +195,7 @@ footer{
     height: 80px;
     left: 0px;
     background: #13183F;
+    top: auto;
 }
 footer img{
     position: absolute;
