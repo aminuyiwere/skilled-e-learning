@@ -328,7 +328,7 @@ background: var(--footerButtonHover);
     #desktop-image{
         visibility: visible;
         height: auto;
-        width: 700px;
+        width: 800px;
     }
     
     
@@ -343,7 +343,7 @@ background: var(--footerButtonHover);
        top: 50px;
     }
     #header p{
-        right: 10%;
+        right: 18%;
         top: 50px;  
     }
     
@@ -376,8 +376,8 @@ background: var(--footerButtonHover);
     #info img{
         position: absolute;
         width: 650px;
-        right: -15vw;
-        top: -30vh;
+        right: 0vw;
+        top: -25vh;
     }
     
     /* courses */
@@ -441,4 +441,4 @@ background: var(--footerButtonHover);
     
 }
 
-}
+
