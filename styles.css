@@ -305,6 +305,7 @@ background: var(--footerButtonHover);
         margin: 30px 0px auto 0px;
     }
     
+
 }
 
 @media (min-width:1000px) {
@@ -435,4 +436,5 @@ background: var(--footerButtonHover);
     background: var(--footerButtonHover);
     }
     
+}
 }
