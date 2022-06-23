@@ -235,7 +235,7 @@ background: var(--footerButtonHover);
     }
     #info{
         position: relative;
-        top: 150px;
+        top: 120px;
     }
     #tablet-image{
         visibility:visible;
@@ -282,9 +282,9 @@ background: var(--footerButtonHover);
     
     #info img{
         position: relative;
-        width: 500px;
-        right: -55vw;
-        top: -75vh;
+        width: 600px;
+        right: -50vw;
+        top: -400px;
     }
 
     #courses{
@@ -293,8 +293,8 @@ background: var(--footerButtonHover);
         left: 5%;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin-top: -200px; 
-        margin-bottom: 100px;       
+        margin-top: -203px; 
+        margin-bottom: 120px;       
     }
     .box{
         height: 250px;
