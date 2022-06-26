@@ -101,6 +101,7 @@ color: var(--hColor);
 }
 
 #info img{
+    margin-top: 20px;
     position: relative;
     width: 400px;
     
