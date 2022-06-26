@@ -14,5 +14,5 @@ The mobile page should also render like this:
 
 # I used html and css to replicate the pages above.
 I implemented the solution for mobile display first because it gave me more flexibilty 
-to be able to skill up to tablet and desktop easily.
+to be able to scale up to tablet and desktop easily.
 # My solution is deployed through github pages at: https://aminuyiwere.github.io/skilled-e-learning/
